@@ -1,1 +1,18 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  text-align: center;
+}
+
+.statement {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  font-size: 30pt;
+}
+#excuse {
+  color: green;
+  font-weight: bold;
+}
